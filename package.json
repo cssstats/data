@@ -1,0 +1,18 @@
+{
+  "name": "cssstats-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "John Otander <johnotander@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node fetch-data.js"
+  },
+  "dependencies": {
+    "cssstats": "^3.3.0",
+    "globby": "^10.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "p-limit": "^2.2.0",
+    "wayback-css": "^3.3.0"
+  }
+}
