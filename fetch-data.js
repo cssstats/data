@@ -8,8 +8,8 @@ const mkdirp = require('mkdirp')
 
 const limit = pLimit(1)
 
-const SITE = 'github.com'
-const SITE_NAME = 'github'
+const SITE = 'apple.com'
+const SITE_NAME = 'apple'
 
 const getEndDate = () => {
   const now = new Date()
